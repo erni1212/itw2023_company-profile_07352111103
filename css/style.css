@@ -1,0 +1,104 @@
+body {
+  background-color: #add8;
+}
+
+.navbar-brand img {
+  width: 200px;
+}
+
+.owl-carousel {
+  display: flex;
+  align-items: center;
+}
+
+.owl-item {
+  width: 100%;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+.banner-card1 {
+  background-color: #e726dd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.banner-card2 {
+  background-color: #e7ad0d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-product {
+  transition: 0.1s ease-in-out;
+}
+
+.card-product:hover {
+  transition: 0.1s ease-in-out;
+  cursor: pointer;
+  border: #11235a 4px solid;
+}
+
+/* banner-card1 */
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  /* .banner-card {
+    display: none;
+  } */
+  .product {
+    margin: 20px;
+  }
+  /* .banner-card2 {
+    display: none;
+  } */
+}
+
+.modal-content {
+  border-radius: 0;
+}
+
+.modal-body {
+  background-color: lemonchiffon;
+  text-align: center;
+}
+
+.rating {
+  color: #ffc107;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.discount {
+  text-decoration: line-through;
+  color: #ff6e2b;
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  /* .banner-card {
+    display: none;
+  } */
+  .product {
+    margin: 20px;
+  }
+  .banner-card {
+    margin: 20px;
+  }
+}
